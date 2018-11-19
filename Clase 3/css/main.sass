@@ -1,0 +1,30 @@
+$color-principal: #003256
+$espacios: 1.5%
+
+.proyecto
+	width:30%
+	margin: auto
+	position: relative
+	overflow: hidden   /*no muestra lo que esta fuera de la caja*/
+
+	&:hover .proyecto-texto
+		transform: translateY(0%)
+		border-top: 3px solid white
+		color: white
+
+	&-imagen
+		width:100%
+
+	&-texto
+		background: $color-principal
+		padding: $espacios
+		position: absolute
+		bottom: 0
+		transform: translateY(100%)
+		transition: all .5s
+		text-align: center
+		font:
+			size: 20px
+			weight:bold
+			family: sans-serif
+

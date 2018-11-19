@@ -1,0 +1,33 @@
+
+.banner{
+	background: #cecece;
+	padding: 2%;
+}
+#principal{
+	padding: 50px 0;
+}
+.principal{
+ 	margin-top: 50px;
+}
+article{
+	border: 1px solid #cecece;
+	border-radius: 5px;
+}
+.col-md-3{
+	padding-left: 0;
+	padding-right: 0;
+}
+.btn-block{
+	width: 50%;
+}
+.glyphicon{
+	margin-left: 10px;
+}
+.navbar{
+	background: #3f51b5;
+	border: none;
+	border-radius:0;
+}
+a{
+	color: white;
+}

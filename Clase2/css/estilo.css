@@ -1,0 +1,55 @@
+body {
+  background: purple;
+}
+
+figure img {
+  position: relative;
+  left: 40%;
+}
+
+nav {
+  background: gray;
+  height: 70px;
+  padding: 20px;
+}
+
+nav li {
+  width: 100%;
+  display: inline;
+  position: relative;
+  left: 30%;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+  padding: 10px;
+  background: red;
+  border-radius: 15px;
+}
+
+a:hover {
+  background: purple;
+}
+
+.imagen {
+  background: orange;
+  width: 300px;
+  height: 500px;
+}
+
+.imagen img {
+  width: 20%;
+}
+
+.imagen img:hover {
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
+}
+
+.imagen:hover {
+  background: gray;
+}

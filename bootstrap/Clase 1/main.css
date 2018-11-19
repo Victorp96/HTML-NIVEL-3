@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#Logo{
+	background: lightblue;
+	margin-top:10px;
+}
+.a{
+	background: gray;
+}
